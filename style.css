@@ -1,38 +1,44 @@
-.sidePanel 
-{
+.sidePanel {
     background-color: navy;
     color: white;
     height: 1588px;
 }
-.profileImage 
-{
+
+@media screen and (max-width: 600px) {
+    .sidePanel {
+        background-color: navy;
+        color: white;
+        height: 1360px;
+    }
+}
+
+.profileImage {
     height: 150px;
     width: 150px;
     border-radius: 50%;
 }
 
-.socials a
-{
+.socials a {
     font-size: 1.5em;
 }
-.mr
-{
+
+.mr {
     margin-left: 10%;
 }
-.mrp
-{
+
+.mrp {
     margin-left: 6%;
 }
-.ml
-{
+
+.ml {
     padding-right: 10%;
 }
-.mlp
-{
+
+.mlp {
     padding-right: 7%;
 }
-.footer
-{
+
+.footer {
     bottom: 0;
     position: absolute;
     bottom: 0;
