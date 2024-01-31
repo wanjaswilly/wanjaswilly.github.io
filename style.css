@@ -1,0 +1,39 @@
+.sidePanel 
+{
+    background-color: navy;
+    color: white;
+    height: 1588px;
+}
+.profileImage 
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.socials a
+{
+    font-size: 1.5em;
+}
+.mr
+{
+    margin-left: 10%;
+}
+.mrp
+{
+    margin-left: 6%;
+}
+.ml
+{
+    padding-right: 10%;
+}
+.mlp
+{
+    padding-right: 7%;
+}
+.footer
+{
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+}
